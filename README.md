@@ -12,11 +12,9 @@ Modern UI elements styled with CSS
 
 JavaScript used for basic interactivity
 
-🚀 Tech Stack
+Tech Stack
 HTML5
-
-CSS3
-
+CSS
 JavaScript (Vanilla)
 
 📁 Live Preview
