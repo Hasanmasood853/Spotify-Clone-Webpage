@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -- Play your favuorite music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="./logo.png" alt="Spotify">Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songItems">
+            <h1>Best of NCS -- No Copyright Sounds</h1>
+            <div class="songsList">
+                <div class="song">
+                    <span><img src="./covers/1.jpg" alt=""></span>
+                    <span class="songName">Warriyo - Mortals [NCS Release]</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/2.jpg" alt=""></span>
+                    <span class="songName">Cielo - Huma-Huma</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/3.jpg" alt=""></span>
+                    <span class="songName">DEAF KEV - Invincible mp3</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/4.jpg" alt=""></span>
+                    <span class="songName">Different Heaven & EH!DE --mp3</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/5.jpg" alt=""></span>
+                    <span class="songName">Janji-Heroes-Tonight-feat</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/6.jpeg" alt=""></span>
+                    <span class="songName">Afusic_Pal_Pal_Official_Music_</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/7.jpeg" alt=""></span>
+                    <span class="songName">Full_Raanjhan_Do_Patti_</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/8.jpeg" alt=""></span>
+                    <span class="songName">Barbaad_Saiyaara Song_mp3</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/9.jpeg" alt=""></span>
+                    <span class="songName">Saiyaara-Official_Name_Song</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+                <div class="song">
+                    <span><img src="./covers/10.jpg" alt=""></span>
+                    <span class="songName">Tera Kasoor Music_Vishal Mishra</span>
+                    <span><i class="fa fa-2x fa-play-circle listPlay" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" value="0" class="progress">
+        <div class="controls">
+            <i class="fa fa-2x fa-step-backward" id="previous" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-play-circle" id="masterplay" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-step-forward" id="next" aria-hidden="true"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./playing.gif" id="gif" alt="Music" width="44px">
+            <p id="songName">Warriyo - Mortals [NCS Release]</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
